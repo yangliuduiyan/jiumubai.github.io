@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: yangliuduiyan
 google_analytics: yangliuduiyan
-title: yangliuduiyan
+title: MuBai
 
 defaults:
   -
@@ -21,10 +21,10 @@ author:
   name: yangliuduiyan
   email: luobijinfengyu@163.com
   github: yangliuduiyan
-  twitter: yangliuduiyan
+  wecat: jiubaishu
   pinterest: yangliuduiyan
   linkedin: yangliuduiyan
-  bio: Your stylish, minimalist theme!
+  bio: 竹杖芒鞋轻胜马，一蓑烟雨任平生!
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
