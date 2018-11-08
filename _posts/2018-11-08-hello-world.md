@@ -2,7 +2,7 @@
 layout: post
 title: 写在开始之前!
 categories: [感想]
-tags: [demo, dbyll, dbtek, setup]
+tags: [生活]
 fullview: true
 comments: true
 ---
