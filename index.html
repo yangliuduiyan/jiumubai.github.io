@@ -24,7 +24,7 @@ tagline:
     <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <div>
+  <div class="home_context">
     {% if post.fullview %}
     {{ post.content }}
     {% else %}
@@ -59,7 +59,7 @@ tagline:
   {% endif %}
   
   <li>
-    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number">页: {{ paginator.page }} / {{ paginator.total_pages }}</span>
   </li>
 
   {% if paginator.next_page %}
