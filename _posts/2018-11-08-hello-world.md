@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 写在开始之前!
 categories: [感想]

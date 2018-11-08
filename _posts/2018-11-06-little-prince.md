@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 读《小王子》
 categories: [读书]
