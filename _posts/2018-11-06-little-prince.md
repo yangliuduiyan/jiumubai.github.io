@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 读《小王子》
-categories: [读书]
-tags: [法国, 英文]
+categories: 读书
+tags: 法国 英文
 description: Sample placeholder post.
 ---
 
