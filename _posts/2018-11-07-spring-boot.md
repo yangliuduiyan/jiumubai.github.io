@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sample 2
-categories: [general, demo, sample]
-tags: [demo, dbyll, dbtek, sample2]
+title: 浅谈 Spring boot
+categories: [技术]
+tags: [JAVA, spring boot]
 description: Sample placeholder post.
 ---
 

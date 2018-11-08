@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello World!
-categories: [general, setup, demo]
+title: 写在开始之前!
+categories: [感想]
 tags: [demo, dbyll, dbtek, setup]
 fullview: true
 comments: true

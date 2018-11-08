@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: MuBai
+      title: 首页
 
 description: Stylish Jekyll Theme
 author:
