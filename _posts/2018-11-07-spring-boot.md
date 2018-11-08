@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 浅谈 Spring boot
-categories: [技术]
-tags: [JAVA, spring boot]
+categories: 技术
+tags: JAVA springboot
 description: Sample placeholder post.
 ---
 
