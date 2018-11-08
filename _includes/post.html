@@ -7,15 +7,15 @@
 	<div class="col-sm-10">
 	 <span class="post-date">
 	   <!--{% assign d = page.date | date: "%d" | plus:'0' %}-->
-	   {{ page.date | date: "%Y" }}年
-		 {{ page.date | date: "%d" }}月
+	   {{ page.date | date: "%Y年" }}
+		 {{ page.date | date: "%d月" }}
 		 <!-- {% case d %}
             {% when 1 or 21 or 31 %}{{ d }}st,
             {% when 2 or 22 %}{{ d }}nd,
             {% when 3 or 23 %}{{ d }}rd,
             {% else %}{{ d }}th,
           {% endcase %}-->
-          {{ page.date | date: "%d" }}日
+          {{ page.date | date: "%d日" }}
         </span>
          <div class="article_body">
          {{ content }}
@@ -74,21 +74,16 @@
 
            <div>
          <section class="share col-sm-6">
-           <h4 class="section-title">Share Post</h4>
-           <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
-              onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-             <i class="fa fa-twitter fa-lg"></i>
-             Twitter
+          <h4 class="section-title">分享</h4>
+           <a class="btn btn-default btn-sm twitter" href="http://service.weibo.com/share/share.php?title={{page.title | encode}}&url={{page.url}}"
+              onclick="window.open(this.href, 'weibo-share', 'width=550,height=235');return false;">
+             <i class="fa fa-weibo fa-lg"></i>
+             微博
            </a>
            <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
-              onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-             <i class="fa fa-facebook fa-lg"></i>
-             Facebook
-           </a>
-           <a class="btn btn-default btn-sm gplus"
-              onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
-             <i class="fa fa-google-plus fa-lg"></i>
-             Google+
+              onclick="window.open(this.href, 'wechat-share','width=580,height=296');return false;">
+             <i class="fa fa-wechat fa-lg"></i>
+             微信
            </a>
          </section>
 
