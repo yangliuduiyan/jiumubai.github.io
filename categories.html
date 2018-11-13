@@ -12,7 +12,7 @@ group: navigation
         {% for category in categories_list %}
 
             <li>
-                <a href="#{{category }}-ref">
+                <a href="#{{category }}">
                   {{ category | capitalize }} <span class="badge pull-right">{{ site.categories[category].size }}</span>
                </a>
             </li>
@@ -32,7 +32,7 @@ group: navigation
 <!-- Tab panes -->
 <div class="tab-content col-sm-9 col-xs-6">
   {% for category in site.categories %}
-    <div class="tab-pane" id="{{ category | first }}-ref">
+    <div class="tab-pane" id="{{ category | first }}">
       <!--<h2 style="margin-top: 0px">文章所属： {{ category[0] | capitalize }}</h2>-->
       <ul class="list-unstyled">
         {% assign pages_list = category[1] %}
