@@ -20,7 +20,7 @@ group: navigation
       {% else %}
         {% for category in categories_list %}
             <li>
-                <a href="#{{ category | first }}-ref">
+                <a href="#{{ category | first }}">
                     {{ category[0] | capitalize }} <span class="badge pull-right">{{ category[1].size }}</span>
                 </a>
             </li>
